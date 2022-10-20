@@ -118,7 +118,25 @@
     width: 100%;
     margin-left: 0px;
     bottom: 0;
-    position:fixed;
+    /* position:fixed; */
   }
+
+
+  .mi-card{
+    display: flex;
+    justify-content: space-between;
+}
+
+.mi-badge-asignado{
+    padding: 8px;
+    background-color: green;
+}
+
+.mi-badge-pendiente{
+    padding: 8px;
+    color: white;
+    background-color: gray;
+}
+
 
 }

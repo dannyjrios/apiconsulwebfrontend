@@ -14,7 +14,7 @@ const CrearCitaFormulario= ()=>
                 <select name="" id="usuario" class="form-select">
                     <option selected>Seleccione</option>
                     <option value="1">Daniel</option>
-                    <option value="2">Juan</option>
+                    <option value="2">Juana</option>
                     <option value="3">María</option>
                     <option value="4">Lucia</option>
                     <option value="5">Pedro</option>
@@ -39,8 +39,9 @@ const CrearCitaFormulario= ()=>
 <div class="row">
     <div class="col col-md-6 col-lg-12">
         <div class="mb-3 mb-lg-3">
-            <label for="observacion" class="form-label">Observación</label>
-            <select name="" id="observacion" class="form-select">
+            <label for="medico" class="form-label">Observaciones</label>
+            <textarea for="observacion" class="form-text" rows="4" cols="40"></textarea>
+            <!-- <select name="" id="observacion" class="form-select"> -->
         </div>
     </div>
 </div>
