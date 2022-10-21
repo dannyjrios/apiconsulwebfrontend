@@ -128,12 +128,13 @@
 }
 
 .mi-badge-asignado{
-    padding: 8px;
+    padding: 6px;
+    color: white;
     background-color: green;
 }
 
 .mi-badge-pendiente{
-    padding: 8px;
+    padding: 6px;
     color: white;
     background-color: gray;
 }
